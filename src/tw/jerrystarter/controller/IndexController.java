@@ -22,5 +22,10 @@ public class IndexController {
 		return "admin-index";
 	}
 	
+	@GetMapping
+	public String toShopPage() {
+		return "shop";
+	}
+	
 	
 }
