@@ -17,5 +17,10 @@ public class IndexController {
 		return "login";
 	}
 	
+	@GetMapping
+	public String toAdminPage() {
+		return "admin-index";
+	}
+	
 	
 }
