@@ -22,5 +22,10 @@ public class IndexController {
 		return "admin-index";
 	}
 	
+	@GetMapping
+	public String toOrder() {
+		return "order";
+	}
+	
 	
 }
