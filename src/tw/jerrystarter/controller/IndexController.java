@@ -25,6 +25,10 @@ public class IndexController {
 	@GetMapping
 	public String toShopPage() {
 		return "shop";
+    
+  @GetMapping
+	public String toOrder() {
+		return "order";
 	}
 	
 	
